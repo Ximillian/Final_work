@@ -42,7 +42,7 @@
 
 3. Запустите контейнер:
     ```bash
-    docker run -d --name shorturl-app -p 8001:8001 shorturl-app
+    docker run -d --name shorturl-app -p 8001:80 shorturl-app
     ```
 
 4. Откройте браузер и перейдите по адресу: [http://127.0.0.1:8001](http://127.0.0.1:8001).

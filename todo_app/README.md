@@ -42,7 +42,7 @@
 
 3. Запустите контейнер:
     ```bash
-    docker run -d --name todo-app -p 8000:8000 todo-app
+    docker run -d --name todo-app -p 8000:80 todo-app
     ```
 
 4. Откройте браузер и перейдите по адресу: [http://127.0.0.1:8000](http://127.0.0.1:8000).
